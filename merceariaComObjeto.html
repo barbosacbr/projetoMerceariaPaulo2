@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercearia Ws</title>
+</head>
+<body>
+    
+    <h1>Mercearia WS</h1>
+    <h4>Produtos disponíveis</h4>
+    <ul>
+        <li>Banana</li>
+        <li>Laranja</li>
+        <li>Maça</li>
+        <li>Abacate</li>
+        <li>Pêra</li>        
+    </ul>
+
+    <input type="text" id="nomeDoProduto" placeholder="Digite o nome do produto">
+
+    <button onclick="valores()">Consultar valor</button>
+
+    <br><br>
+
+    <div id="valorProduto"></div>
+    
+    <br>
+
+    <button onclick="addCarrinho()">Colocar no carrinho</button>
+    <button onclick="totalCompra()">Finalizar compra</button>
+
+    <br>
+    <p id="valorCarrinho" style="margin-left: 25px;"></p>
+
+    <script src="lojaComObjeto.js"></script>
+</body>
+</html>
